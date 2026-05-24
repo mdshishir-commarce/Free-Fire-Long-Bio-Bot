@@ -27,7 +27,10 @@ if not BOT_TOKEN:
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode=None)
 app = Flask(__name__)
 
-
+REQUIRED_CHANNELS = ["@shishirlikebotff"]
+GROUP_JOIN_LINK = "https://t.me/shishirlikebotfff"
+OWNER ID = 8119275730
+OWNER_USERNAME = "@nusratjahantisha"
 def escape_markdown_v2(text: str) -> str:
     """Escape all MarkdownV2 special characters."""
     special_chars = r'\_*[]()~`>#+-=|{}.!'
